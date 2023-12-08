@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ethiclickImg from "@/public/ethiclick.png";
+import geomatikaImg from "@/public/geomatika.png";
 
 export const links = [
   {
@@ -35,52 +35,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Web / Mobile developer",
+    location: "Bayonne, France",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 8 months of studying (including 2 month stage). I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Bayonne, France",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "After 4 years as web / mobile developer, I'm now a full-stack developer working as a freelancer. My stack includes React, React Native, VueJS, Nuxt.js, Next.js, TypeScript, and PostgreSQL. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Drawer",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked to build a canvas free hand draw for an organization.",
+    tags: ["Vite", "Typescript", "Vitest", "CSS"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Ethiclick",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I create a fullstack web app (REST architecture).",
+    tags: ["React Native", "TypeScript", "React Native Paper", "AdonisJS", "Redux"],
+    imageUrl: ethiclickImg,
   },
   {
-    title: "Word Analytics",
+    title: "Géomatika (Isigéo)",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A web / mobile app geographic information system for data analytics.",
+    tags: ["Javascript (jQuery)", "Bootstrap", "PostgreSQL", "Fullcalandar", "Cordova"],
+    imageUrl: geomatikaImg,
+  },
+  {
+    title: "Portfolio (yes, this website)",
+    description:
+      "My currently personnal portfolio.",
+    tags: ["React", "TypeScript", "Next.js", "Resend", "Tailwind"],
+    imageUrl: geomatikaImg,
   },
 ] as const;
 
@@ -90,18 +89,16 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "Next.js",
+  "Nuxt.js",
   "Node.js",
   "Git",
+  "Bootstrap",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "Figma",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "AdonisJS",
 ] as const;
