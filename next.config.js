@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: 'build',
   images: {
     remotePatterns: [
       {
@@ -10,6 +11,8 @@ const nextConfig = {
   },
   experimental: {
     serverActions: true,
+    workerThreads: false,
+    cpus: 4
   },
 };
 
