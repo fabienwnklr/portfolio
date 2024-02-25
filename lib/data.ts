@@ -55,7 +55,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'Mécamobile',
-    description: 'A web site including home made back office for an independant mecanician moving home with a equipped truck.',
+    description: 'A web site featuring a custom-built back office for an independent mechanic offering mobile services with a fully-equiped truck.',
     tags: ['VueJS', 'Vuetify', 'TinyMCE', 'NodeJS', 'Express', 'Sequelize'],
     imageUrl: mecamobileImg,
     github: 'https://github.com/fabienwnklr/garage',

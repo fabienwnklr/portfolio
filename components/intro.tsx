@@ -63,11 +63,14 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Fabien.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">4 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js), React Native, Typescript and VueJS</span>.
+        <span className="font-bold">Hello, I'm Fabien,</span>
+        <span className="font-bold">a full-stack developer</span> with
+        <span className="font-bold">4 years</span> of experience specializing in
+        <span className="underline">
+          React, React Native, TypeScript and Vue.js
+        </span>
+        . I'm passionnate about building efficient and innovative
+        <span className="italic">digital solutions</span>.
       </motion.h1>
 
       <motion.div
@@ -86,7 +89,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -95,7 +98,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Download CV
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
