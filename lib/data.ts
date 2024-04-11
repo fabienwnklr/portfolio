@@ -2,6 +2,7 @@ import React from 'react';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import drawerImg from '@/public/drawer.png';
+import drawerImg from '@/public/free-drawing.png';
 import ethiclickImg from '@/public/ethiclick.png';
 import geomatikaImg from '@/public/geomatika.png';
 import mecamobileImg from '@/public/mecamobile.png';
@@ -68,6 +69,14 @@ export const projectsData = [
     imageUrl: drawerImg,
     github: 'https://github.com/fabienwnklr/drawer',
     url: 'https://drawer.fabienwinkler.fr/'
+  },
+  {
+    title: 'Free-drawing',
+    description: 'Like `drawer`, I worked to build a canvas free hand draw for an organization, but more complexe and more complete for lot of uses.',
+    tags: ['KonvaJS', 'Vite', 'Typescript', 'Vitest', 'CSS'],
+    imageUrl: freeDrawingImg,
+    github: 'https://github.com/fabienwnklr/free-drawing',
+    url: 'https://free-drawing-docs.fabienwinkler.fr/'
   },
   {
     title: 'Géomatika (Isigéo)',
