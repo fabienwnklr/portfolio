@@ -70,6 +70,14 @@ export const projectsData = [
     url: 'https://drawer.fabienwinkler.fr/'
   },
   {
+    title: 'Free Drawing',
+    description: 'A supercharged drawer.',
+    tags: ['Vite', 'Typescript', 'Vitest', 'CSS', 'KonvaJS'],
+    imageUrl: drawerImg,
+    github: 'https://github.com/fabienwnklr/free-drawing',
+    url: 'https://free-drawing-docs.fabienwinkler.fr/'
+  },
+  {
     title: 'Géomatika (Isigéo)',
     description: 'A web / mobile app geographic information system for data analytics.',
     tags: ['Javascript (jQuery)', 'Bootstrap', 'PostgreSQL', 'Fullcalandar', 'Cordova'],
